@@ -1,0 +1,59 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#fff;
+    margin-top:.8em;
+    height:60%;
+    width:90%;
+}
+.loginInputEmail, .loginInputSenha{
+    display: flex;
+    position: relative;
+    width:100%;
+    align-items: center;
+    border-bottom: 1px solid #3d3d3d;
+}
+.loginInputEmail input,.loginInputSenha input{
+    background-color:transparent;
+    border: none;
+    outline: none;
+    font-size:12px;
+    margin-left: .8em;
+}
+.loginInputSenha .showEye{
+    height:100%;
+    display: flex;
+    position: relative;
+    left:4em;
+    align-items:center;
+    justify-items:end;
+    cursor: pointer;
+}
+.forgot{
+    width:100%;
+    display: flex;
+    align-items:center;
+    justify-content: left;
+}
+.forgotpassword{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    font-size:.6em;
+}
+.entrar{
+    border-radius: 20px;
+    border: none;
+    width: 5em;
+    font-size:.7em;
+    height:30px;
+    text-align: center;
+    background-color: #24726d;
+    color:#fff;
+    font-weight:bold;
+}
+.signin{
+    font-size:.6em;
+}
